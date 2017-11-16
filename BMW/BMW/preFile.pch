@@ -1,0 +1,22 @@
+//
+//  preFile.pch
+//  BMW
+//
+//  Created by rr on 16/1/26.
+//  Copyright © 2016年 成都欧品在线电子商务有限公司. All rights reserved.
+//
+
+#ifndef preFile_pch
+#define preFile_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Define.h"
+#import "TYTools.h"
+
+#endif /* preFile_pch */
